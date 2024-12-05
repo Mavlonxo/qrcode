@@ -3,12 +3,23 @@ import "./App.css";
 
 
 //Salatlar
-import img2 from './img/chaban.jpg'
 import salad1 from './img/salat1.jpg'
 import salad2 from './img/salat2.jpg'
 import salad3 from './img/salat3.jpg'
 import salad5 from './img/salat5.jpg'
 import salad6 from './img/salat6.jpg'
+
+
+
+// 1chi ovqatlar
+import soup1 from './img/b1.jpg'
+import soup2 from './img/b2.jpg'
+import soup3 from './img/b3.jpg'
+import soup4 from './img/bfri.jpg'
+import soup5 from './img/b4.jpg'
+import soup6 from './img/b5.jpg'
+import soup7 from './img/b6.jpg'
+import soup8 from './img/b7.jpg'
 
 
 //ichimliklar 
@@ -49,27 +60,66 @@ const menu = {
   ],
   "1-чи овқат": [
     {
-      name: "Чабан салат",
-      price: "32 500",
-      img: img2,
+      name: "Крем-суп Эзогелин",
+      price: "37 000",
+      img: soup1,
     },
     {
-      name: "Caesar Salad",
-      price: "$7.99",
-      img: "https://hips.hearstapps.com/hmg-prod/images/harvest-bowls-index-66b3f14d6d5d4.jpg?crop=0.502xw:1.00xh;0,0&resize=640:*",
+      name: "Крем-суп Мерджимек",
+      price: "33 000",
+      img: soup2,
     },
     {
-      name: "Iced Tea",
-      price: "$1.99",
-      img: "https://static01.nyt.com/images/2024/07/10/dining/10WELL-LUNCH-SECRETS9/18WELL-LUNCH-SECRETS9-mediumSquareAt3X.jpg",
+      name: "Домашние пельмешки",
+      price: "32 000",
+      img: soup3,
     },
+
+    {
+      name: "Суп с фрикадельками",
+      price: "36 000",
+      img: soup4,
+    },
+
+
+    {
+      name: "Фирменный суп",
+      price: "36 000",
+      img: soup5,
+    },
+
+
+    {
+      name: "Тушёный суп",
+      price: "42 000",
+      img: soup6,
+    },
+
+    {
+      name: "Мастава",
+      price: "32 000",
+      img: soup7,
+    },
+
+
+
+    {
+      name: "Борщ украинский",
+      price: "32 000",
+      img: soup8,
+    },
+
+
+
+
+
+
+
+
+
   ],
   "2-чи овқат": [
-    {
-      name: "Steak",
-      price: "$15.99",
-      img: "https://images.immediate.co.uk/production/volatile/sites/30/2022/03/Quick-dinner-recipes-c7ca11c.jpg",
-    },
+   
     {
       name: "Pasta",
       price: "$12.99",
