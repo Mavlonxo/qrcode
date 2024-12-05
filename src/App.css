@@ -1,38 +1,107 @@
-.App {
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #343a40;
+  color: #f8f9fa;
   text-align: center;
+  padding: 20px 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.category-button {
+  background: #f8f9fa;
+  color: #343a40;
+  border: 1px solid #343a40;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.category-button:hover {
+  background: #343a40;
+  color: #f8f9fa;
+}
+
+/* Menu Container */
+.menu-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Placeholder */
+.placeholder {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Menu Items */
+.menu-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-item img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.menu-item h3 {
+  margin: 0 0 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000;
+}
+
+.menu-item span {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .category-button {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .menu-container {
+    width: 90%;
+  }
+
+  .menu-item img {
+    max-width: 100%;
   }
 }
